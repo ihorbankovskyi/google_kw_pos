@@ -5,9 +5,6 @@ import csv
 my_domain = input('your domain: ')
 kw_file = input('Name of your file: ')
 
-
-
-
 def file(filename):
     with open(f'{filename}', 'r+') as f:
         kw_list = [x.strip() for x in f.readlines()]
